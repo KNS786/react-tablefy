@@ -1,0 +1,39 @@
+.table-layout{
+    display:flex;
+    flex-direction: row;
+    border: 2px solid black;
+    border-radius: 2px;
+    margin-top: 55px;
+    margin-left:2%;
+    margin-right:2%;
+
+}
+
+.table{
+    display:flex;
+    flex-direction: column;
+    width:100%
+}
+
+.row{
+    display:flex;
+    flex-direction: row;
+    border-bottom: 1px solid black;
+}
+
+.row:last-child{
+    border-bottom: none ;
+}
+
+.column {
+    width:20%;
+    border:1px solid black;
+    border-top:none;
+    border-bottom: none;
+}
+.column:last-child{
+    border-right:none;
+}
+.column:first-child{
+    border-left:none
+}
